@@ -1,0 +1,8 @@
+.event-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+body {
+  min-width: 320px;
+}

@@ -1,0 +1,15 @@
+/* src/styles/app.css */
+body {
+  margin: 0;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+.orchid-card-img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.orchid-card {
+  height: 100%;
+}
