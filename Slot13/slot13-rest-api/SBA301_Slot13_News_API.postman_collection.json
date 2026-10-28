@@ -20,10 +20,10 @@
       }
     },
     {
-      "name": "T02 - GET /api/hello?name=Vinh",
+      "name": "T02 - GET /api/hello?name=Duy",
       "request": {
         "method": "GET",
-        "url": { "raw": "{{baseUrl}}/api/hello?name=Vinh", "host": ["{{baseUrl}}"], "path": ["api", "hello"], "query": [{ "key": "name", "value": "Vinh" }] }
+        "url": { "raw": "{{baseUrl}}/api/hello?name=Duy", "host": ["{{baseUrl}}"], "path": ["api", "hello"], "query": [{ "key": "name", "value": "Duy" }] }
       }
     },
     {

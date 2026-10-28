@@ -32,8 +32,8 @@ export const DashboardHome = () => (
 export const ProfilePage = () => (
   <div>
     <h3>User Profile</h3>
-    <p><strong>Name:</strong> Trần Hiển Vinh</p>
-    <p><strong>Student ID:</strong> CE190881</p>
+    <p><strong>Name:</strong> Hồ Minh Duy</p>
+    <p><strong>Student ID:</strong> CE190378</p>
     <p><strong>Class:</strong> SE1910</p>
   </div>
 );

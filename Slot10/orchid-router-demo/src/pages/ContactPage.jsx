@@ -16,7 +16,7 @@ export default function ContactPage() {
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Form.Label>Your Name</Form.Label>
-          <Form.Control type="text" placeholder="Trần Hiển Vinh" defaultValue="Trần Hiển Vinh" required />
+          <Form.Control type="text" placeholder="Hồ Minh Duy" defaultValue="Hồ Minh Duy" required />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Message</Form.Label>

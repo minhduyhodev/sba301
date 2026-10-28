@@ -9,7 +9,7 @@ export default function MainLayout() {
         <Outlet />
       </main>
       <footer className="border-top py-3 text-center text-muted bg-white mt-auto">
-        SBA301 • Orchid Router Demo • Trần Hiển Vinh (CE190881)
+        SBA301 • Orchid Router Demo • Hồ Minh Duy (CE190378)
       </footer>
     </div>
   );

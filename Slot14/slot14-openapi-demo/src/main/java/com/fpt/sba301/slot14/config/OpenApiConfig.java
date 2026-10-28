@@ -21,8 +21,8 @@ public class OpenApiConfig {
                         .description("Training API for SBA301 Slot 14 - Documenting REST Services with OpenAPI and Swagger")
                         .termsOfService("https://fpt.edu.vn/terms")
                         .contact(new Contact()
-                                .name("Trần Hiển Vinh (CE190881)")
-                                .email("vinhthe190881@fpt.edu.vn")))
+                                .name("Hồ Minh Duy (CE190378)")
+                                .email("duyhmce190378@fpt.edu.vn")))
                 .servers(List.of(
                         new Server().url("http://localhost:8080").description("Local development server")
                 ));

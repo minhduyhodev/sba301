@@ -1,7 +1,7 @@
 function AppFooter() {
   return (
     <footer className="app-footer">
-      SBA301 • Campus Event Navigator • React Router Practice • Trần Hiển Vinh (CE190881)
+      SBA301 • Campus Event Navigator • React Router Practice • Hồ Minh Duy (CE190378)
     </footer>
   );
 }

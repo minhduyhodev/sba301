@@ -9,7 +9,7 @@ export default function MainLayout() {
         <Outlet />
       </main>
       <footer className="footer">
-        SBA301 MiniStore SPA • React Router Demo • Trần Hiển Vinh (CE190881)
+        SBA301 MiniStore SPA • React Router Demo • Hồ Minh Duy (CE190378)
       </footer>
     </>
   );
