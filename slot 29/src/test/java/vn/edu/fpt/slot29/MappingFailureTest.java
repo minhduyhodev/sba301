@@ -1,4 +1,4 @@
-package example.invalidmapping;
+package vn.edu.fpt.slot29;
 
 import jakarta.persistence.*;
 import org.hibernate.boot.MetadataSources;
@@ -32,14 +32,17 @@ class MappingFailureTest {
 
     @Entity(name = "BrokenStudent")
     static class BrokenStudent {
-        @Id Long id;
-        @ManyToMany @JoinTable(name = "BROKEN_LINK")
+        @Id
+        Long id;
+        @ManyToMany
+        @JoinTable(name = "BROKEN_LINK")
         Set<BrokenBook> books = new HashSet<>();
     }
 
     @Entity(name = "BrokenBook")
     static class BrokenBook {
-        @Id Long id;
+        @Id
+        Long id;
         @ManyToMany(mappedBy = "book") // intentionally wrong: owner property is "books"
         Set<BrokenStudent> students = new HashSet<>();
     }
