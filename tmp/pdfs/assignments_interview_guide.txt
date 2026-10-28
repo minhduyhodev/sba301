@@ -1,0 +1,125 @@
+=== PAGE 1 ===
+SBA301 • Assignments • Student Interview Guide 
+SBA301 – General Guide for Individual Assignments  1 
+SBA301 
+HƯỚNG DẪN CHUẨN BỊ VÀ THAM GIA INTERVIEW CHO 
+CÁC ASSIGNMENT 
+CHUẨN BỊ • THỰC HIỆN • HIỂU RUBRIC 
+PHẠM VI ÁP DỤNG: Tài liệu này dùng chung cho các Assignment cá nhân trong môn SBA301. Không ph ụ thuộc vào tên 
+project, framework, thư viện hoặc công nghệ cụ thể của từng Assignment. 
+MỤC TIÊU: Sinh viên cần biết: (1) chuẩn bị gì trước buổi interview, (2) cách trình bày và trả lời trong buổi interview, (3) 
+cách giảng viên đánh giá theo rubric 4 tiêu chí / 10 điểm. 
+1. CHUẨN BỊ TRƯỚC BUỔI INTERVIEW 
+1.1. Chuẩn bị bài làm cá nhân 
+□ Bài Assignment đúng version đã nộp và có thể chạy lại được. 
+□ Repository Git cá nhân đúng tài khoản của sinh viên. 
+□ Commit history thể hiện quá trình phát triển theo thời gian, không chỉ upload toàn bộ source một lần ở cuối. 
+□ Có thể mở nhanh các file/chức năng quan trọng trong bài. 
+□ Biết rõ cấu trúc bài, luồng xử lý chính và các quyết định thiết kế quan trọng. 
+1.2. Chuẩn bị kiến thức cần hiểu 
+□ Hiểu bài toán: mục tiêu, yêu cầu, chức năng chính, dữ liệu, ràng buộc và kết quả cần đạt. 
+□ Biết cách thực hiện: tổ chức solution, phân chia module/component/layer, quản lý dữ liệu/trạng thái, luồng xử lý và 
+tích hợp giữa các phần. 
+□ Hiểu code của bài cá nhân: input, xử lý, dữ liệu/trạng thái thay đổi, output, lỗi hoặc trường hợp biên. 
+□ Biết giải thích vì sao chọn cách làm hiện tại và nếu yêu cầu thay đổi thì phần nào sẽ bị ảnh hưởng. 
+1.3. Chuẩn bị bằng chứng 
+Bằng chứng Bạn cần có 
+Personal Git Repository cá nhân, đúng account, commit history theo tiến trình 
+Source code Có thể mở nhanh các phần chính khi được hỏi 
+Run evidence Bài chạy được và có thể demo chức năng chính 
+Development process Biết quá trình mình đã làm từ bắt đầu → hoàn thiện → sửa lỗi/cải tiến 
+LƯU Ý: Không cần học thuộc một bài thuyết trình dài. Quan trọng là hiểu bài mình đã làm và có thể giải thích bằng chính 
+source code và Git history. 
+ 
+ 
+ 
+  
+
+=== PAGE 2 ===
+SBA301 • Assignments • Student Interview Guide 
+SBA301 – General Guide for Individual Assignments  2 
+2. CÁCH THỰC HIỆN TRONG BUỔI INTERVIEW 
+2.1. Trình tự khuyến nghị 
+Pha Bạn nên làm Mục tiêu 
+1. Run Mở đúng bài và chạy nhanh Xác nhận bài hoạt động 
+2. Personal Git Mở repo cá nhân, xác nhận account và một số commit tiêu biểu Xác minh tiến trình cá nhân 
+3. Explain Trả lời câu hỏi về bài toán, cách thực hiện và cấu trúc solution Xác minh mức độ hiểu 
+4. Code Interview Mở file/code được hỏi và trace flow Xác minh làm chủ code 
+5. Adaptation nếu cần Phân tích change impact; có thể sửa code nếu giảng viên cần xác minh thêm Xác minh khả năng thích ứng 
+2.2. Cách trả lời câu hỏi về code 
+KHUNG TRẢ LỜI NGẮN: Purpose → Input → Trigger → Processing/Data/State → Output → Failure → Why → Change impact  
+Câu hỏi Cách trả lời nên có 
+Phần này làm gì? Nêu mục đích và trách nhiệm chính 
+Luồng bắt đầu ở đâu? Chỉ event, request, action hoặc entry point 
+Dữ liệu đi vào từ đâu? Nêu input, state, service, storage hoặc nguồn dữ liệu 
+Logic xử lý ở đâu? Chỉ function/method/condition/transform chính 
+Kết quả là gì? Nêu dữ liệu, giao diện hoặc trạng thái sau xử lý 
+Nếu dữ liệu sai/lỗi? Nêu failure path hoặc validation 
+Vì sao thiết kế như vậy? Giải thích lý do và trade-off đơn giản 
+Nếu đổi yêu cầu? Nêu phần bị ảnh hưởng và cách cập nhật 
+2.3. Live modification không phải lúc nào cũng bắt buộc 
+Nếu qua phần interview, sinh viên đã giải thích rõ bài toán, cách thực hiện, luồng code và change impact, giảng viên có 
+thể không yêu cầu sửa code trực tiếp. 
+Live modification chỉ được dùng khi cần xác minh thêm mức độ hiểu hoặc khả năng thích ứng. 
+• Nói lại yêu cầu thay đổi. 
+• Xác định các phần bị ảnh hưởng. 
+• Mở đúng file/function cần chỉnh. 
+• Sửa thay đổi nhỏ nhất. 
+• Chạy lại và giải thích kết quả. 
+3. HIỂU TIÊU CHÍ CHẤM ĐIỂM 
+Mã Tiêu chí Điểm Bạn cần chứng minh 
+C1 Problem Understanding & Solution Approach 1.5 Hiểu bài toán, yêu cầu và biết cách tổ chức/thực hiện lời giải. 
+C2 Individual Engineering Process & Personal Git Evidence 2.0 Git cá nhân đúng account, commit theo tiến trình và chứng minh 
+quá trình phát triển thực sự. 
+C3 Functional Implementation 1.5 Bài chạy được, các chức năng chính hoạt động và tích hợp hợp lý. 
+C4 Code Understanding, Explanation & Adaptation 5.0 Hiểu sâu code, trace flow, giải thích design và change impact; 
+modification chỉ dùng khi cần xác minh. 
+
+=== PAGE 3 ===
+SBA301 • Assignments • Student Interview Guide 
+SBA301 – General Guide for Individual Assignments  3 
+3.1. C1 – Hiểu bài toán và biết cách thực hiện – 1.5 điểm 
+• Hiểu mục tiêu và yêu cầu của Assignment. 
+• Hiểu các chức năng, dữ liệu và ràng buộc chính. 
+• Biết cách tổ chức solution và luồng thực hiện. 
+• Giải thích được vì sao chọn cách thực hiện hiện tại. 
+3.2. C2 – Tiến trình cá nhân và Git – 2.0 điểm 
+• Repository cá nhân và đúng Git account. 
+• Commit history thể hiện quá trình phát triển thật. 
+• Có sự tiến hóa từ tạo bài → thêm chức năng → sửa lỗi/cải tiến. 
+• Không đánh giá máy móc theo số lượng commit. 
+3.3. C3 – Functional Implementation – 1.5 điểm 
+• Bài có thể chạy. 
+• Các chức năng chính hoạt động. 
+• Các phần chính tích hợp với nhau hợp lý. 
+• Không có lỗi nghiêm trọng làm hỏng workflow chính. 
+3.4. C4 – Code Understanding, Explanation & Adaptation – 5.0 điểm 
+• Mở đúng code khi được hỏi. 
+• Trace được luồng xử lý từ đầu vào đến kết quả. 
+• Giải thích được dữ liệu/trạng thái, dependency và design decision. 
+• Phân tích được ảnh hưởng khi requirement thay đổi. 
+• Có thể thích ứng hoặc sửa code khi giảng viên cần xác minh thêm. 
+TRỌNG TÂM: C4 chiếm 5/10 điểm vì mục tiêu chính của interview là xác minh sinh viên thực sự hiểu và làm chủ bài 
+Assignment cá nhân. Nếu phần trả lời đã đủ rõ, giảng viên không nhất thiết yêu cầu live modification. 
+4. CHECKLIST 5 PHÚT TRƯỚC BUỔI INTERVIEW 
+□ Bài chạy được. 
+□ Personal Git repository mở sẵn và đúng account. 
+□ Biết 2–3 commit tiêu biểu thể hiện tiến trình. 
+□ Có thể giải thích bài toán và cách thực hiện. 
+□ Có thể mở nhanh các file/chức năng chính. 
+□ Có thể trace ít nhất một workflow end-to-end. 
+
+=== PAGE 4 ===
+SBA301 • Assignments • Student Interview Guide 
+SBA301 – General Guide for Individual Assignments  4 
+□ Biết sẽ thay đổi phần nào nếu requirement thay đổi. 
+5. TÓM TẮT 
+Bạn cần nhớ Nội dung 
+Chuẩn bị Bài chạy được + Personal Git + hiểu bài toán/cách thực hiện + hiểu code 
+Khi interview Run → Git → Explain → Code Interview → Adaptation nếu cần 
+Cách trả lời Purpose → Input → Trigger → Processing → Output → Failure → Why → Impact 
+Điểm trọng tâm C4 Code Understanding, Explanation & Adaptation = 5.0/10 
+Live modification Không bắt buộc nếu interview đã đủ để xác minh mức độ hiểu 
+THÔNG ĐIỆP CUỐI: Không cần học thuộc câu trả lời. Hãy hiểu bài mình đã làm, biết vì sao thực hiện như vậy, biết code 
+chạy theo luồng nào và biết mình sẽ thay đổi gì khi yêu cầu thay đổi. 
+ 
