@@ -96,7 +96,7 @@ export const AdminAccountsPage = () => {
       fetchAccounts();
     } catch (err) {
       const message = err.response?.data?.message || 'Failed to delete account.';
-      setErrorMsg(`⚠️ Cannot delete account: ${message}`);
+      setErrorMsg(`Cannot delete account: ${message}`);
     } finally {
       setDeleteTarget(null);
     }
@@ -112,7 +112,7 @@ export const AdminAccountsPage = () => {
           </p>
         </div>
         <button className="btn btn-primary" onClick={openCreateModal}>
-          ➕ Add New Account
+          Add New Account
         </button>
       </div>
 

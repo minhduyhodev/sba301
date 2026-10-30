@@ -183,7 +183,7 @@ export const StaffNewsPage = () => {
           </p>
         </div>
         <button className="btn btn-primary" onClick={openCreateModal}>
-          ➕ Create News Article
+          Create News Article
         </button>
       </div>
 
@@ -420,7 +420,7 @@ export const StaffNewsPage = () => {
                     className={`tag-toggle-btn ${isSelected ? 'tag-selected' : ''}`}
                     onClick={() => handleTagToggle(tag.tagId)}
                   >
-                    {isSelected ? '✓ ' : '+ '}#{tag.tagName}
+                    #{tag.tagName}
                   </button>
                 );
               })}

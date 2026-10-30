@@ -92,7 +92,7 @@ export const PublicNewsPage = () => {
         </div>
 
         <button type="submit" className="btn btn-primary">
-          🔍 Search
+          Search
         </button>
         {(keyword || selectedCategory) && (
           <button 
@@ -153,7 +153,7 @@ export const PublicNewsPage = () => {
 
               <div className="news-card-footer">
                 <span className="news-author">
-                  ✍️ {item.createdBy?.accountName || 'Staff'}
+                  {item.createdBy?.accountName || 'Staff'}
                 </span>
                 <button 
                   className="btn btn-outline-primary btn-sm"
@@ -178,9 +178,9 @@ export const PublicNewsPage = () => {
           <div className="article-detail-view">
             <div className="article-meta-bar">
               <span className="category-pill">{readingArticle.category?.categoryName}</span>
-              <span>📅 {new Date(readingArticle.createdDate).toLocaleString()}</span>
-              <span>👤 Author: {readingArticle.createdBy?.accountName}</span>
-              {readingArticle.newsSource && <span>📰 Source: {readingArticle.newsSource}</span>}
+              <span>{new Date(readingArticle.createdDate).toLocaleString()}</span>
+              <span>Author: {readingArticle.createdBy?.accountName}</span>
+              {readingArticle.newsSource && <span>Source: {readingArticle.newsSource}</span>}
             </div>
 
             {readingArticle.headline && (

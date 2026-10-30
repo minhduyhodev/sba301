@@ -36,7 +36,6 @@ export const LoginPage = ({ onLoginSuccess }) => {
     <div className="login-page-container">
       <div className="login-card">
         <div className="login-header">
-          <div className="login-icon">🔐</div>
           <h2>System Authentication</h2>
           <p>Please enter your credentials to access management functions.</p>
         </div>
@@ -85,14 +84,14 @@ export const LoginPage = ({ onLoginSuccess }) => {
               className="btn btn-outline-primary btn-sm"
               onClick={() => fillCredentials('admin@fpt.edu.vn', 'admin123')}
             >
-              👑 Fill Admin (Role = 1)
+              Fill Admin (Role = 1)
             </button>
             <button 
               type="button" 
               className="btn btn-outline-secondary btn-sm"
               onClick={() => fillCredentials('staff@fpt.edu.vn', 'staff123')}
             >
-              ✍️ Fill Staff (Role = 2)
+              Fill Staff (Role = 2)
             </button>
           </div>
         </div>

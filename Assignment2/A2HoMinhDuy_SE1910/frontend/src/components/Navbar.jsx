@@ -7,7 +7,6 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
   return (
     <header className="app-navbar">
       <div className="navbar-brand" onClick={() => onSelectTab('public-news')}>
-        <span className="brand-logo">📰</span>
         <div className="brand-text">
           <span className="brand-title">FUNews</span>
           <span className="brand-subtitle">Management System</span>
@@ -19,7 +18,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
           className={`nav-btn ${currentTab === 'public-news' ? 'active' : ''}`}
           onClick={() => onSelectTab('public-news')}
         >
-          🌐 Public News
+          Public News
         </button>
 
         {/* Admin Navigation */}
@@ -28,7 +27,7 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
             className={`nav-btn ${currentTab === 'accounts' ? 'active' : ''}`}
             onClick={() => onSelectTab('accounts')}
           >
-            👥 Accounts (Admin)
+            Accounts (Admin)
           </button>
         )}
 
@@ -39,25 +38,25 @@ export const Navbar = ({ currentTab, onSelectTab }) => {
               className={`nav-btn ${currentTab === 'news-mgmt' ? 'active' : ''}`}
               onClick={() => onSelectTab('news-mgmt')}
             >
-              📑 News Articles
+              News Articles
             </button>
             <button 
               className={`nav-btn ${currentTab === 'categories' ? 'active' : ''}`}
               onClick={() => onSelectTab('categories')}
             >
-              📂 Categories
+              Categories
             </button>
             <button 
               className={`nav-btn ${currentTab === 'history' ? 'active' : ''}`}
               onClick={() => onSelectTab('history')}
             >
-              🕒 My News History
+              My News History
             </button>
             <button 
               className={`nav-btn ${currentTab === 'profile' ? 'active' : ''}`}
               onClick={() => onSelectTab('profile')}
             >
-              👤 Profile
+              Profile
             </button>
           </>
         )}

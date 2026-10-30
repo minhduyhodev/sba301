@@ -103,7 +103,7 @@ export const StaffCategoriesPage = () => {
       fetchCategories();
     } catch (err) {
       const msg = err.response?.data?.message || 'Delete failed.';
-      setErrorMsg(`⚠️ Cannot delete category: ${msg}`);
+      setErrorMsg(`Cannot delete category: ${msg}`);
     } finally {
       setDeleteTarget(null);
     }
@@ -119,7 +119,7 @@ export const StaffCategoriesPage = () => {
           </p>
         </div>
         <button className="btn btn-primary" onClick={openCreateModal}>
-          ➕ Add New Category
+          Add New Category
         </button>
       </div>
 
